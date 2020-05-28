@@ -3,6 +3,7 @@ import { Selector, t } from 'testcafe'
 class PayPage {
     constructor(){
         this.menuPay = Selector('#pay_bills_tab')
+        this.menuTransfer = Selector('#transfer_funds_tab')
         this.addPay = Selector('a').withText('Add New Payee')
         this.payName = Selector('#np_new_payee_name')
         this.payAdress = Selector('#np_new_payee_address')
